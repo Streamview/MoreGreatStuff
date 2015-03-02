@@ -120,138 +120,111 @@
 					</div><!-- /navbar-inner -->
 				</div><!-- /navbar -->
 			</div>
-		</div><!-- end nav --><div class="row">
+		</div><!-- end nav -->	 <div class="row">
+	 <div class="span12">
 
-	<div class="span12">
-		<ul class="breadcrumb">
-			<li><a href="#">Home</a> <span class="divider">/</span></li>
-			<li><a href="#">Account</a> <span class="divider">/</span></li>
-			<li class="active"><a href="#">Login</a></li>
-		</ul>
+	 
+	<h1> Shopping Cart</h1><br />
+	 
+        <table class="table table-bordered table-striped">
+		  <thead>
+			  <tr>
+				<th>Remove</th>
+				<th>Image</th>
+				<th>Product Name</th>
+				<th>Model</th>
+				<th>Quantity</th>
+				<th>Unit Price</th>
+				<th>Total</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+				<td class=""><input type="checkbox" value="option1" id="optionsCheckbox"></td>
+				<td class="muted center_text"><a href="product.html"><img src="css/images/macbook-pro.jpg"></a></td>
+				<td>MacBook Pro</td>
+				<td>Product 18</td>
+				<td><input type="text" placeholder="1" class="input-mini"></td>
+				<td>$2,350.00</td>
+				<td>$2,350.00</td>
+			  </tr>			  
+			  <tr>
+				<td class=""><input type="checkbox" value="option1" id="optionsCheckbox"></td>
+				<td class="muted center_text"><a href="product.html"><img src="css/images/macbook-pro.jpg"></a></td>
+				<td>MacBook Pro</td>
+				<td>Product 18</td>
+				<td><input type="text" placeholder="1" class="input-mini"></td>
+				<td>$2,350.00</td>
+				<td>$2,350.00</td>
+			  </tr>				 
+			  <tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td><strong>$4,700.00</strong></td>
+			  </tr>		  
+			</tbody>
+		  </table>
+		  
+		  <form class="form-horizontal">
+		<fieldset>	  
+		  
+		  
+		            <div class="accordion" id="accordion2">
+            <div class="accordion-group">
+              <div class="accordion-heading">
 
-		<div class="row">
-			<div class="span9">
-				<h1>Account login</h1>
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                  <h3>Apply discount code</h3>
+                </a>
+              </div>
+              <div id="collapseOne" class="accordion-body collapse in">
+                <div class="accordion-inner">
+          <div class="control-group">
+            <label for="input01" class="control-label">Discount code: </label>
+            <div class="controls">
+              <input type="text" id="input01" class="input-xlarge" placeholder="Enter your coupon here">
+              <p class="help-block">You can only use one discount code at a time</p>
+            </div>
+          </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+					<h3>Use gift voucher</h3>
+                </a>
+              </div>
+			                <div id="collapseTwo" class="accordion-body collapse">
+                <div class="accordion-inner">
+          <div class="control-group">
+            <label for="input01" class="control-label">Gift voucher: </label>
+            <div class="controls">
+              <input type="text" id="input01" class="input-xlarge" placeholder="Enter your gift voucher here">
+              <p class="help-block">You can use multiple gift vouchers at a time</p>
+            </div>
+          </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+		  <div class="span5">
+            <button class="btn btn-primary" type="submit">Update</button>
+			</div>		  
+			<div class="span2">
+            <button class="btn btn-primary" type="submit">Continue shopping</button>
+			</div>		  
+			<div class="span5">
+            <a href="checkout.html" class="btn btn-primary pull-right">Checkout</a>
 			</div>
-		</div>
-		
-		<hr />
-
-		<div class="row">
-
-			<div class="span5 well">
-				<h2>New Customers</h2>
-				<p>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p><br />
-				<a href="register.html" class="btn btn-primary pull-right">Create an account</a>
-			</div>	 		
-			
-			<div class="span5 well pull-right">
-				<h2>Registered Customers</h2>
-				<p>If you have an account with us, please log in.</p>
-
-				<form class="">
-					<fieldset>
-						<div class="control-group">
-							<label for="focusedInput" class="control-label">Username</label>
-							<div class="controls">
-							<input type="text" placeholder="Enter your username" id="username" class="input-xlarge focused">
-							</div>
-						</div>
-						<div class="control-group">
-							<label class="control-label">Password</label>
-							<div class="controls">
-							<input type="password" placeholder="Enter your password" id="password" class="input-xlarge">
-							</div>
-						</div>
-
-						<button class="btn btn-primary pull-right" type="submit">Login</button>
-					</fieldset>
-				</form>
-				
-			</div>
-
-		</div>
-	</div>
-
-</div><footer>
-	<hr />
-	<div class="row well no_margin_left">
-
-	<div class="span3">
-		<h4>Information</h4>
-		<ul>
-			<li><a href="two-column.html">About Us</a></li>
-			<li><a href="typography.html">Delivery Information</a></li>
-			<li><a href="typography.html">Privacy Policy</a></li>
-			<li><a href="typography.html">Terms &amp; Conditions</a></li>
-		</ul>
-	</div>
-	<div class="span3">
-		<h4>Customer Service</h4>
-		<ul>
-			<li><a href="contact.html">Contact Us</a></li>
-			<li><a href="typography.html">Returns</a></li>
-			<li><a href="typography.html">Site Map</a></li>
-		</ul>
-	</div>
-	<div class="span3">
-		<h4>Extras</h4>
-		<ul>
-			<li><a href="typography.html">Brands</a></li>
-			<li><a href="typography.html">Gift Vouchers</a></li>
-			<li><a href="typography.html">Affiliates</a></li>
-			<li><a href="typography.html">Specials</a></li>
-		</ul>
-	</div>
-	<div class="span2">
-		<h4>My Account</h4>
-		<ul>
-			<li><a href="my_account.html">My Account</a></li>
-			<li><a href="typography.html">Order History</a></li>
-			<li><a href="typography.html">Wish List</a></li>
-			<li><a href="typography.html">Newsletter</a></li>
-		</ul>
-	</div>
-
-</footer>
-
-</div> <!-- /container -->
-
-
-<div id="theme_switcher">
-	<div class="btn-group">
-		<a class="btn btn-success dropdown-toggle" data-toggle="dropdown" href="#">Switch theme <span class="caret"></span></a>
-		<ul class="dropdown-menu">
-            <li><a href="#" rel="united">United</a></li>
-            <li><a href="#" rel="spacelab">Spacelab</a></li>
-			<li><a href="#" rel="journal">Journal</a></li>
-			<li><a href="#" rel="simplex">Simplex</a></li>
-            <li><a href="#" rel="cerulean">Cerulean</a></li>
-			<li><a href="#" rel="cyborg">Cyborg</a></li>
-            <li><a href="#" rel="slate">Slate</a></li>
-            <li><a href="#" rel="spruce">Spruce</a></li>
-			<li><a href="#" rel="">Bootstrap</a></li>
-		</ul>
-	</div>
-</div>
-
-
-<!-- Le javascript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery.min.js"></script>
-<script src="bootstrap/js/bootstrap.js"></script>
-<script src="js/jquery.rating.pack.js"></script>
-<script>
-$(function() {
-	$('#theme_switcher ul li a').bind('click',
-		function(e) {
-			$("#switch_style").attr("href", "http://bootswatch.com/"+$(this).attr('rel')+"/bootstrap.min.css");    		
-			return false;
-		}
-	);
-});
-</script>
-
-</body>
-</html>
+          </div>
+        </fieldset>
+        </form>
+  <?php include('resources/sections/footer.php');?>

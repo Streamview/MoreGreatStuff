@@ -307,9 +307,9 @@
       return this
     }
 
-  , next: function () {
+  , next: function (next) {
       if (this.sliding) return
-      return this.slide('next')
+      return this.slide('next', next) 
     }
 
   , prev: function () {
