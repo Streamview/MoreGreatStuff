@@ -1,7 +1,10 @@
  <?php include('resources/sections/header.php');?>
  <div class="row">
-
-		<div class="span12">
+	<div class="span3">
+		<?php include('resources/sections/categories.php');?>
+	</div>
+	
+		<div class="span9">
 			<div class="page-header">
     		<h1>Contact us</h1>
   		</div>
@@ -9,7 +12,7 @@
   		<!-- Headings & Paragraph Copy -->
   		<div class="row">
   
-      <div class="span12">
+      <div class="span9">
       	<form id="contactus-form" class="form-horizontal">
         	<fieldset>
           		<p>	
