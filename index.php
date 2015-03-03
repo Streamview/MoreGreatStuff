@@ -104,7 +104,7 @@
         <div class="span9">
 
 			<div id="myCarousel" class="carousel slide">
-	            <div class="carousel-inner" role="listbox">  
+	            <div class="carousel-inner">  
 	              
 	              <div id="slide1" class="item active">
 					<img src="css/images/carousel_1.jpg" alt="">

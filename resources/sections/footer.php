@@ -71,17 +71,17 @@
 var CAROUSEL_INTERVAL = 3000;
 
 $(document).ready(function () {
-    $('.carousel').carousel({
+    $('#myCarousel').carousel({
         interval: 3000
     });
 
-    $('.carousel').carousel('cycle');
+    $('#myCarousel').carousel('cycle');
 
     $('#myCarousel').on('slid.bs.carousel', function (direction, relatedTarget) {
     	console.log();
     	if ($("#myCarousel .item.active").attr('id') == 'slide3') {
 			setTimeout(function(){
-				$('.carousel').carousel(0);
+				//$('.carousel').carousel(0);
 			}, CAROUSEL_INTERVAL);
         }
     });
