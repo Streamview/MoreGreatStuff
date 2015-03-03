@@ -1,4 +1,6 @@
- <?php include('resources/sections/header.php');?>
+<?php 
+$page_title = "Return Policy";
+include('resources/sections/header.php');?>
 <div class="row">	
 	<div class="span12">
 		<div class="page-header">
