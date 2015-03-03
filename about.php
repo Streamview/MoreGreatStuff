@@ -22,7 +22,7 @@ include('resources/sections/header.php');?>
      			customers are guaranteed value for their purchases.</p>
 			<p>We are obligated to collect HST/GST taxes in Canada.</p> 
 			<p>For information regarding products or services available through this web site, contact us via email at 
-			<a href="mailto:info@MoreGreatStuff.ca">info@MoreGreatStuff.ca</a> or by phone at <strong>(647) 977-1201</strong>.</p>
+			<a href="mailto:info@MoreGreatStuff.ca">info@MoreGreatStuff.ca</a> or by phone at <strong>(647) 956-9215</strong>.</p>
     	</div>
   		<!-- Misc Elements -->
   	</div><!-- /row -->

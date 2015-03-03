@@ -26,6 +26,10 @@ ini_set("display_errors", "On");?>
     	#currency-col img {
     		width:24px;
     	}
+    	
+    	#site-name {
+    		font-size:38px;
+    	}
     </style>
   </head>
   <body>
@@ -34,7 +38,7 @@ ini_set("display_errors", "On");?>
 		<div class="row"><!-- start header -->
 			<div class="span4 logo">
 			<a href="/">
-				<h1>More Great Stuff</h1>
+				<h1 id="site-name">More Great Stuff</h1>
 			</a>
 			</div>
 			<div class="span8">
@@ -52,16 +56,15 @@ ini_set("display_errors", "On");?>
 					</div>					
 					<div class="span3 customer_service">
 						<!-- <h4>FREE delivery on ALL orders</h4> -->
-						<h4><small>Customer service: (647) 977-1201</small></h4>
+						<h4><small>Customer service: (647) 956-9215</small></h4>
 					</div>
 				</div>
 				<br />
 				<div class="row">
 					<div class="links pull-right">
-						<a href="index.html">Home</a> |
+						<a href="/">Home</a> |
 						<a href="my_account.html">My Account</a> |
 						<a href="cart.html">Shopping Cart</a> |
-						<a href="/about/">About</a> |
 						<a href="/contact/">Contact</a>
 					</div>
 				

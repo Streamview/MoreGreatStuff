@@ -90,54 +90,54 @@
        
 	   <li class="span2">
           <div class="thumbnail">
-            <a href="product.html"><img alt="" src="css/images/ps-vita-150cx123.jpg" /></a>
+            <a href="product.php"><img alt="" src="css/images/ps-vita-150cx123.jpg" /></a>
             <div class="caption">
-              <a href="product.html"> <h5>PS Vita</h5></a>  Price: &#36;50.00<br /><br />
+              <a href="product.php"> <h5>PS Vita</h5></a>  Price: &#36;50.00<br /><br />
             </div>
           </div>
         </li>
        
 	   <li class="span2">
           <div class="thumbnail">
-            <a href="product.html"><img alt="" src="css/images/nexus-one-3-150x123.jpg" /></a>
+            <a href="product.php"><img alt="" src="css/images/nexus-one-3-150x123.jpg" /></a>
             <div class="caption">
-              <a href="product.html"> <h5>Nexus one</h5></a>  Price: &#36;50.00<br /><br />
+              <a href="product.php"> <h5>Nexus one</h5></a>  Price: &#36;50.00<br /><br />
             </div>
           </div>
         </li>
        
 	   <li class="span2">
           <div class="thumbnail">
-            <a href="product.html"><img alt="" src="css/images/thumb_sam_3d.jpg" /></a>
+            <a href="product.php"><img alt="" src="css/images/thumb_sam_3d.jpg" /></a>
             <div class="caption">
-              <a href="product.html"> <h5>Samsung 3D TV</h5></a>  Price: &#36;50.00<br /><br />
+              <a href="product.php"> <h5>Samsung 3D TV</h5></a>  Price: &#36;50.00<br /><br />
             </div>
           </div>
         </li>
        
 	   <li class="span2">
           <div class="thumbnail">
-            <a href="product.html"><img alt="" src="css/images/ipad_case.jpg" /></a>
+            <a href="product.php"><img alt="" src="css/images/ipad_case.jpg" /></a>
             <div class="caption">
-              <a href="product.html"> <h5>iPod Case</h5></a>  Price: &#36;50.00<br /><br />
+              <a href="product.php"> <h5>iPod Case</h5></a>  Price: &#36;50.00<br /><br />
             </div>
           </div>
         </li>
        
 	   <li class="span2">
           <div class="thumbnail">
-            <a href="product.html"><img alt="" src="css/images/HMX-H104.JPG" /></a>
+            <a href="product.php"><img alt="" src="css/images/HMX-H104.JPG" /></a>
             <div class="caption">
-              <a href="product.html"> <h5>HMX Camcorder</h5></a>  Price: &#36;50.00<br /><br />
+              <a href="product.php"> <h5>HMX Camcorder</h5></a>  Price: &#36;50.00<br /><br />
             </div>
           </div>
         </li>
        
 	   <li class="span2">
           <div class="thumbnail">
-            <a href="product.html"><img alt="" src="css/images/expic.png" /></a>
+            <a href="product.php"><img alt="" src="css/images/expic.png" /></a>
             <div class="caption">
-              <a href="product.html"> <h5>Kindle Fire</h5></a>  Price: &#36;50.00<br /><br />
+              <a href="product.php"> <h5>Kindle Fire</h5></a>  Price: &#36;50.00<br /><br />
             </div>
           </div>
         </li>

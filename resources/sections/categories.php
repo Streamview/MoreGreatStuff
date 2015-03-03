@@ -11,6 +11,7 @@
 			<li><a class="" href="/categories.php?type=">Auto & Marine Audio/Video</a>
 			<li><a class="" href="/categories.php?type=Auto & Marine Audio/Video">Telephone and Mobile</a>
 			<li><a class="" href="/categories.php?type=Accessories">Accessories</a>
+			<li><a class="" href="/specials/">Specials</a></li>
 			
 			<!-- 
 			<li>
