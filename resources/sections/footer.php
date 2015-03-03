@@ -24,7 +24,7 @@
 		<h4>Extras</h4>
 		<ul>
 			<li><a href="/gift_vouchers/">Gift Vouchers</a></li>
-			<li><a href="typography.html">Specials</a></li>
+			<li><a href="/specials/">Specials</a></li>
 		</ul>
 	</div>
 	<div class="span2">
