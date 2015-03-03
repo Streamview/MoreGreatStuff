@@ -11,4 +11,5 @@
 	RewriteRule ^privacy_policy([/])?$ privacy_policy.php [L,QSA]
 	RewriteRule ^return_policy([/])?$ return_policy.php [L,QSA]
 	RewriteRule ^specials([/])?$ specials.php [L,QSA]
+	RewriteRule ^terms_and_conditions([/])?$ terms_and_conditions.php [L,QSA]
 </IfModule>
