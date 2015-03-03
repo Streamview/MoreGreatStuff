@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	
+
+	RewriteRule ^about([/])?$	about.php [L,QSA]	
+</IfModule>

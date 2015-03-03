@@ -64,9 +64,9 @@
 <!-- Le javascript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery.min.js"></script>
-<script src="bootstrap/js/bootstrap.js"></script>
-<script src="js/jquery.rating.pack.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/bootstrap/js/bootstrap.js"></script>
+<script src="/js/jquery.rating.pack.js"></script>
 <script>
 var CAROUSEL_INTERVAL = 3000;
 
