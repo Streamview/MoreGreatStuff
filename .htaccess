@@ -3,5 +3,7 @@
 	RewriteBase /
 	
 
-	RewriteRule ^about([/])?$	about.php [L,QSA]	
+	RewriteRule ^about([/])?$	about.php [L,QSA]
+	RewriteRule ^contact([/])?$	contact.php [L,QSA]
+	RewriteRule ^sendcontact([/])?$	resources/scripts/sendcontact.php [L,QSA]		
 </IfModule>

@@ -5,7 +5,7 @@
 	<div class="span3">
 		<h4>Information</h4>
 		<ul>
-			<li><a href="two-column.html">About Us</a></li>
+			<li><a href="/about/">About Us</a></li>
 			<li><a href="typography.html">Delivery Information</a></li>
 			<li><a href="typography.html">Privacy Policy</a></li>
 			<li><a href="typography.html">Terms &amp; Conditions</a></li>
@@ -14,7 +14,7 @@
 	<div class="span3">
 		<h4>Customer Service</h4>
 		<ul>
-			<li><a href="contact.html">Contact Us</a></li>
+			<li><a href="/contact/">Contact Us</a></li>
 			<li><a href="typography.html">Returns</a></li>
 			<li><a href="typography.html">Site Map</a></li>
 		</ul>
@@ -67,7 +67,7 @@
 <script src="/js/jquery.min.js"></script>
 <script src="/bootstrap/js/bootstrap.js"></script>
 <script src="/js/jquery.rating.pack.js"></script>
-<script>
+<script type="text/javascript">
 var CAROUSEL_INTERVAL = 3000;
 
 $(document).ready(function () {
@@ -77,14 +77,34 @@ $(document).ready(function () {
 
     $('#myCarousel').carousel('cycle');
 
-    $('#myCarousel').on('slid.bs.carousel', function (direction, relatedTarget) {
-    	console.log();
-    	if ($("#myCarousel .item.active").attr('id') == 'slide3') {
-			setTimeout(function(){
-				//$('.carousel').carousel(0);
-			}, CAROUSEL_INTERVAL);
-        }
-    });
+    
+    $("#submit-contact-form-btn").click(function(){
+        var btn = this;
+        $(btn).button('loading');
+		$.ajax({
+			url:"/sendcontact/",
+			type:"post",
+			dataType:'json',
+			data:$("#contactus-form").serialize(),
+			success:function(response, jqXHR) {
+				if (response.success) {
+					alert(response.message);
+					$("#contactus-form input, #contactus-form textarea").val("");
+				} else {
+					alert(response.errors[0]);
+				}
+
+				$(btn).button('reset');
+			},
+			error:function (jqXHR) {
+				alert(jqXHR.responseText);
+				$(btn).button('reset');
+			}
+		});
+		return false;
+	});
+
+	return false;
 });
 
 </script>

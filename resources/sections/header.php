@@ -60,7 +60,7 @@
 						<a href="my_account.html">My Account</a> |
 						<a href="cart.html">Shopping Cart</a> |
 						<a href="/about/">About</a> |
-						<a href="contact.html">Contact</a>
+						<a href="/contact/">Contact</a>
 					</div>
 				
 				</div>
