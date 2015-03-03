@@ -11,7 +11,11 @@
    		<div class="span12">
      		<h3 class="pp-sec-title">Web Site Privacy Policies</h3>
      		<p>
-				www.MoreGreatStuff.ca recognizes that respecting user privacy over the Internet is of utmost importance. This privacy statement is designed to provide information about the privacy and data collection practices for the site: http://www.moregreatstuff.ca. If you have questions or concerns regarding this statement, you should first contact our site coordinator at privacy@MoreGreatStuff.ca or by postal mail to:
+				www.MoreGreatStuff.ca recognizes that respecting user privacy over the Internet is of utmost importance. 
+				This privacy statement is designed to provide information about the privacy and data collection practices for the site: 
+				<a href="http://www.moregreatstuff.ca">http://www.moregreatstuff.ca</a>. If you have questions or concerns regarding 
+				this statement, you should first contact our site coordinator at 
+				<a href="mailto:privacy@MoreGreatStuff.ca">privacy@MoreGreatStuff.ca</a> or by postal mail to:
 			</p>
 			
 			<p class="align-center">	

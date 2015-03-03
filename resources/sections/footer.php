@@ -8,6 +8,7 @@
 			<li><a href="/about/">About Us</a></li>
 			<li><a href="/delivery_information/">Delivery Information</a></li>
 			<li><a href="/privacy_policy/">Privacy Policy</a></li>
+			<li><a href="/return_policy/">Return Policy</a></li>
 			<li><a href="typography.html">Terms &amp; Conditions</a></li>
 		</ul>
 	</div>

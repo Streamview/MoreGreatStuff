@@ -9,4 +9,5 @@
 	RewriteRule ^delivery_information([/])?$ delivery_information.php [L,QSA]
 	RewriteRule ^gift_vouchers([/])?$ gift_vouchers.php [L,QSA]
 	RewriteRule ^privacy_policy([/])?$ privacy_policy.php [L,QSA]
+	RewriteRule ^return_policy([/])?$ return_policy.php [L,QSA]
 </IfModule>
