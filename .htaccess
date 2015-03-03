@@ -7,4 +7,5 @@
 	RewriteRule ^contact([/])?$	contact.php [L,QSA]
 	RewriteRule ^sendcontact([/])?$	resources/scripts/sendcontact.php [L,QSA]	
 	RewriteRule ^delivery_information([/])?$ delivery_information.php [L,QSA]
+	RewriteRule ^gift_vouchers([/])?$ gift_vouchers.php [L,QSA]
 </IfModule>

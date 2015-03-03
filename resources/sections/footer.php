@@ -22,9 +22,7 @@
 	<div class="span3">
 		<h4>Extras</h4>
 		<ul>
-			<!-- <li><a href="typography.html">Brands</a></li> -->
-			<li><a href="typography.html">Gift Vouchers</a></li>
-			<!-- <li><a href="typography.html">Affiliates</a></li> -->
+			<li><a href="/gift_vouchers/">Gift Vouchers</a></li>
 			<li><a href="typography.html">Specials</a></li>
 		</ul>
 	</div>
