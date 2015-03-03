@@ -12,7 +12,7 @@
 	            <div class="carousel-inner">  
 	              
 	              <div id="slide1" class="item active">
-					<img src="css/images/carousel_1.jpg" alt="">
+					<img src="/resources/img/slider/1.jpg" alt="">
 	                <div class="carousel-caption">
 	                  <h4>First Thumbnail label</h4>
 	                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -20,7 +20,7 @@
 	              </div>
 	              
 	              <div id="slide2" class="item">
-	              	<img src="css/images/carousel_2.jpg" alt="">
+	              	<img src="/resources/img/slider/2.jpg" alt="">
 	                <div class="carousel-caption">
 	                  <h4>Second Thumbnail label</h4>
 	                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -28,12 +28,53 @@
 	              </div>
 	
 	              <div id="slide3" class="item">
-					<img src="css/images/carousel_3.jpg" alt="">
+					<img src="/resources/img/slider/3.jpg" alt="">
 	                <div class="carousel-caption">
 	                  <h4>Third Thumbnail label</h4>
 	                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 	                </div>
 	              </div>
+	              
+	               <div id="slide3" class="item">
+					<img src="/resources/img/slider/4.jpg" alt="">
+	                <div class="carousel-caption">
+	                  <h4>Third Thumbnail label</h4>
+	                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+	                </div>
+	              </div>
+	              
+	               <div id="slide3" class="item">
+					<img src="/resources/img/slider/5.jpg" alt="">
+	                <div class="carousel-caption">
+	                  <h4>Third Thumbnail label</h4>
+	                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+	                </div>
+	              </div>
+	              
+	               <div id="slide3" class="item">
+					<img src="/resources/img/slider/6.jpg" alt="">
+	                <div class="carousel-caption">
+	                  <h4>Third Thumbnail label</h4>
+	                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+	                </div>
+	              </div>
+	              
+	               <div id="slide3" class="item">
+					<img src="/resources/img/slider/7.jpg" alt="">
+	                <div class="carousel-caption">
+	                  <h4>Third Thumbnail label</h4>
+	                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+	                </div>
+	              </div>
+	              
+	               <div id="slide3" class="item">
+					<img src="/resources/img/slider/8.jpg" alt="">
+	                <div class="carousel-caption">
+	                  <h4>Third Thumbnail label</h4>
+	                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+	                </div>
+	              </div>
+	              
 	            </div>
 	
 	            <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
