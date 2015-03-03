@@ -8,4 +8,5 @@
 	RewriteRule ^sendcontact([/])?$	resources/scripts/sendcontact.php [L,QSA]	
 	RewriteRule ^delivery_information([/])?$ delivery_information.php [L,QSA]
 	RewriteRule ^gift_vouchers([/])?$ gift_vouchers.php [L,QSA]
+	RewriteRule ^privacy_policy([/])?$ privacy_policy.php [L,QSA]
 </IfModule>
