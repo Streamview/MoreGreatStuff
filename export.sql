@@ -1,0 +1,1 @@
+-- alter table product add foreign key (category_id) references product_category(id) on delete set null; 

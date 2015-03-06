@@ -1,6 +1,6 @@
 <?php 
 global $page_title;
-ini_set("display_errors", "On");?>
+?>
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
