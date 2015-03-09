@@ -1,7 +1,5 @@
- <?php 
- $page_title = "Home";
- include('resources/sections/header.php');?>
-
+<?php $page_title = "Home";
+include('resources/sections/header.php');?>
      <div class="row">
 		<div class="span3">
 			<?php include('resources/sections/categories.php');?>

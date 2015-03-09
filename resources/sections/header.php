@@ -1,4 +1,5 @@
 <?php 
+require_once '/home/houspcom/public_html/moregreatstuff.ca/config.php';
 global $page_title;
 ?>
 <!DOCTYPE html>
@@ -33,17 +34,27 @@ global $page_title;
     	
     	.navbar .nav > li > a {
     		font-size:9pt;
+    		color:#FFF;
     	}
+    	
     </style>
   </head>
-  <body>
+  <body>				
   
   <div class="container">
 		<div class="row"><!-- start header -->
 			<div class="span4 logo">
-			<a href="/">
-				<h1 id="site-name">More Great Stuff</h1>
-			</a>
+				<div clas="row">
+					<a href="/">
+						<h1 id="site-name">More Great Stuff</h1>
+					</a>
+				</div>
+				<div clas="row" style="margin-top: 15px;">
+					<form class="navbar-search" action="/search/">
+						<input name="keywords" type="text" class="search-query span2" placeholder="Search" style="width: 230px;">
+						<button class="btn btn-primary btn-small search_btn" type="submit">Go</button>
+					</form>
+				</div>
 			</div>
 			<div class="span8">
 			

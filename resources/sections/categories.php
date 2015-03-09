@@ -1,5 +1,4 @@
-<?php 
-	require_once '/public_html/moregreatstuff.ca/config.php';
+<?php
 	$category_list = new Models\ProductCategoryList;
 	$category_list->findAll();
 ?>

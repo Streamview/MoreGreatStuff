@@ -13,7 +13,7 @@ class Db extends \mysqli {
 	static private $object;
 	
 	protected function __construct () {		
-		parent::__construct(isLive() ? \Config\App::LIVE_DATABASE_HOST : \Config\App::DEV_DATABASE_HOST, 
+		parent::__construct(\Config\App::DATABASE_HOST, 
 							\Config\App::DATABASE_USER,
 						    \Config\App::DATABASE_PASSWORD,
 							\Config\App::DATABASE_NAME);
